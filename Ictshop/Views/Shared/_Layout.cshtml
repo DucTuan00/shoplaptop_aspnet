@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Điện thoại rẻ Thanh Hóa</title>
+    <title>@ViewBag.Title - LAPTOP rẻ Thanh Hóa</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
@@ -85,7 +85,7 @@
 
             <div class="row">
                 @*<div class="col-sm-2"><img class="navbar-brand" src="~/HinhanhSP/logo1.jpg" width="20" height="20" style="padding:0" /></div>*@
-                <div class="col-sm-4 col-md-0" style="font-size:large">IctShop</div>
+                <div class="col-sm-4 col-md-0" style="font-size:large">LAPTOP36</div>
 
                 <div class="col-sm-4 col-md-0" style="padding-left:250px">
                     @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
@@ -99,17 +99,14 @@
                                     @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" })*@
                                     <a style="color:red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
                                 </div> }
-    else
-    {
-<div class="col-sm-4 col-md-0">
-    <a style="color:white" href="/User/Dangky"> Đăng ký</a>
-    &nbsp;
-    <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
-</div> } }
-
-
+                    else
+                    {
+                    <div class="col-sm-4 col-md-0">
+                         <a style="color:white" href="/User/Dangky"> Đăng ký</a>
+                         &nbsp;
+                        <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
+                    </div> } }
             </div>
-
         </div>
         <div class="container">
 
@@ -120,10 +117,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <img class="navbar-brand" src="~/HinhanhSP/logo1.jpg" width="50" height="50" style="padding:0" />
-                @Html.ActionLink(" DiDong36", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("LAPTOP36", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 <form class="form-inline" style="float:left">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
-                    @*<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
+                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">                   
                 </form>
 
             </div>
@@ -132,33 +128,26 @@
 
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#" title="dienthoai">
+                        <!--<a href="#" title="dienthoai">-->
                             @*<span><i class=" glyphicon-music "></i></span>*@
-                            <span>ĐIỆN THOẠI</span>
+                            <!--<span>ĐIỆN THOẠI</span>
 
-                        </a>
-                        @*<span><i class=" glyphicon-music "></i> </span>
-                            <br />
-                            <span>@Html.ActionLink("Trang chủ", "Index", "Home") </span>*@
+                        </a>-->
                     </li>
                     <li>
-                        <a href="#" title="LAPTOP">
-                            @*<span><i class="fas fa-tablet"></i></span>*@
+                        <a href="#" title="LAPTOP">                            
                             <span>LAPTOP</span>
 
                         </a>
 
                     </li>
                     <li>
-                        <a href="#" title="PHUKIEN">
-                            @*<span><i class="fas fa-desktop"></i></span>*@
+                        <a href="#" title="PHUKIEN">                            
                             <span>PHỤ KIỆN</span>
-
                         </a>
                     </li>
                     <li>
-                        <a href="/Home/Contact" title="LIENHE">
-                            @*<span><i class="fas fa-headphones"></i></span>*@
+                        <a href="/Home/Contact" title="LIENHE">                           
                             <span>LIÊN HỆ</span>
 
                         </a>
@@ -181,7 +170,7 @@
         @RenderBody()
         <hr />
         <div>
-            <img class="img-responsive" src="~/HinhanhSP/ban2.jpg" />
+            <img class="img-responsive" src="~/HinhanhSP/laptopbanner5.jpg" />
         </div>
         <br />
     </div>

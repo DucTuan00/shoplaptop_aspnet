@@ -70,14 +70,15 @@ namespace Ictshop.Migrations
                         Giatien = c.Decimal(precision: 18, scale: 0),
                         Soluong = c.Int(),
                         Mota = c.String(storeType: "ntext"),
-                        Thesim = c.Int(),
+                        Cpu = c.String(maxLength: 70),
                         Bonhotrong = c.Int(),
                         Sanphammoi = c.Boolean(),
                         Ram = c.Int(),
                         Anhbia = c.String(maxLength: 10),
                         Mahang = c.Int(),
                         Mahdh = c.Int(),
-                    })
+                        Gpu = c.String(maxLength: 70),
+                })
                 .PrimaryKey(t => t.Masp)
                 .ForeignKey("dbo.Hangsanxuat", t => t.Mahang)
                 .ForeignKey("dbo.Hedieuhanh", t => t.Mahdh)

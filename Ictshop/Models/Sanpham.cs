@@ -32,9 +32,9 @@
 
         [Column(TypeName = "ntext")]
         public string Mota { get; set; }
-        [Display(Name = "Thẻ sim")]
+        [Display(Name = "Cpu")]
 
-        public int? Thesim { get; set; }
+        public string Cpu { get; set; }
         [Display(Name = "Bộ nhớ trong")]
 
         public int? Bonhotrong { get; set; }
@@ -53,6 +53,9 @@
         [Display(Name = "Hệ điều hành")]
 
         public int? Mahdh { get; set; }
+
+        public string Gpu { get; set; }
+        [Display(Name = "Card đồ họa")]
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Chitietdonhang> Chitietdonhang { get; set; }

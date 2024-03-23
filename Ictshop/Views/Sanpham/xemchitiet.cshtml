@@ -15,14 +15,18 @@
         <br />
         <h3> @Model.Tensp</h3>
         <h3 style="color:red">Giá: @String.Format("{0:0,0}", @Model.Giatien) VND</h3>
+        <h4>Cpu: @Html.DisplayFor(model => model.Cpu)</h4>
+        <h4>Gpu: @Html.DisplayFor(model => model.Gpu)</h4>
+        <h4>Ram: @Html.DisplayFor(model => model.Ram) gb</h4>
+        <h4>Ssd: @Html.DisplayFor(model => model.Bonhotrong) gb</h4>
         <br />
         @Model.Mota
         <br />
-        @using (Html.BeginForm("ThemGioHang","GioHang",new { @iMasp=Model.Masp, @strURL=Request.Url.ToString()}))
+        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = Model.Masp, @strURL = Request.Url.ToString() }))
         {
-                <input type="submit" value="Mua hàng" id="bgnGioHang" />
+            <input type="submit" value="Mua hàng" id="bgnGioHang" />
 
         }
-        
+
     </div>
 </CENTER>

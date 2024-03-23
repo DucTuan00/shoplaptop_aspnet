@@ -102,9 +102,10 @@ namespace Ictshop.Areas.Admin.Controllers
                 oldItem.Anhbia = sanpham.Anhbia;
                 oldItem.Bonhotrong = sanpham.Bonhotrong;
                 oldItem.Ram = sanpham.Ram;
-                oldItem.Thesim = sanpham.Thesim;
+                oldItem.Cpu = sanpham.Cpu;
                 oldItem.Mahang = sanpham.Mahang;
                 oldItem.Mahdh = sanpham.Mahdh;
+                oldItem.Gpu = sanpham.Gpu;
                 // lưu lại
                 db.SaveChanges();
                 // xong chuyển qua index

@@ -10,10 +10,10 @@
     public partial class Hedieuhanh
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Hedieuhanh()
-        {
-            Sanpham = new HashSet<Sanpham>();
-        }
+        //public Hedieuhanh()
+        //{
+        //    Sanpham = new HashSet<Sanpham>();
+        //}
 
         [Key]
         public int Mahdh { get; set; }

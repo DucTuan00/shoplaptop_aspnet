@@ -10,10 +10,10 @@
     public partial class PhanQuyen
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public PhanQuyen()
-        {
-            Nguoidung = new HashSet<Nguoidung>();
-        }
+        //public PhanQuyen()
+        //{
+        //    Nguoidung = new HashSet<Nguoidung>();
+        //}
 
         [Key]
         public int IDQuyen { get; set; }

@@ -36,13 +36,11 @@ namespace Ictshop.Controllers
                     ViewBag.RegOk = "Đăng kí thành công. Đăng nhập ngay";
                     ViewBag.isReg = true;
                     return View("Dangky");
-
                 }
                 else
                 {
                     return View("Dangky");
                 }
-
             }
             catch
             {
@@ -53,9 +51,7 @@ namespace Ictshop.Controllers
         public ActionResult Dangnhap()
         {
             return View();
-
         }
-
 
         [HttpPost]
         public ActionResult Dangnhap(FormCollection userlog)
@@ -63,7 +59,6 @@ namespace Ictshop.Controllers
             string userMail = userlog["userMail"].ToString();
             string password = userlog["password"].ToString();
             var islogin = db.Nguoidungs.SingleOrDefault(x => x.Email.Equals(userMail) && x.Matkhau.Equals(password));
-
             if (islogin != null)
             {
                 if (userMail == "Admin@gmail.com")
@@ -82,13 +77,11 @@ namespace Ictshop.Controllers
                 ViewBag.Fail = "Tài khoản hoặc mật khẩu không chính xác.";
                 return View("Dangnhap");
             }
-
         }
         public ActionResult DangXuat()
         {
             Session["use"] = null;
             return RedirectToAction("Index", "Home");
-
         }
 
         public ActionResult Profile(int? id)
@@ -116,7 +109,6 @@ namespace Ictshop.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.IDQuyen = new SelectList(db.PhanQuyens, "IDQuyen", "TenQuyen", nguoidung.IDQuyen);
             return View(nguoidung);
         }
 
@@ -129,12 +121,8 @@ namespace Ictshop.Controllers
             {
                 db.Entry(nguoidung).State = EntityState.Modified;
                 db.SaveChanges();
-                //@ViewBag.show = "Chỉnh sửa hồ sơ thành công";
-                //return View(nguoidung);
                 return RedirectToAction("Profile", new { id = nguoidung.MaNguoiDung });
-
-            }
-            ViewBag.IDQuyen = new SelectList(db.PhanQuyens, "IDQuyen", "TenQuyen", nguoidung.IDQuyen);
+            }           
             return View(nguoidung);
         }
         public static byte[] encryptData(string data)

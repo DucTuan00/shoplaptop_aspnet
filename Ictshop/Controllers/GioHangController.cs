@@ -33,14 +33,14 @@ namespace Ictshop.Controllers
                 Response.StatusCode = 404;
                 return null;
             }
-            //Lấy ra session giỏ hàng
+        //Lấy ra session giỏ hàng
             List<GioHang> lstGioHang = LayGioHang();
-            //Kiểm tra sp này đã tồn tại trong session[giohang] chưa
+        //Kiểm tra sp này đã tồn tại trong session[giohang] chưa
             GioHang sanpham = lstGioHang.Find(n => n.iMasp == iMasp);
             if (sanpham == null)
             {
                 sanpham = new GioHang(iMasp);
-                //Add sản phẩm mới thêm vào list
+        //Add sản phẩm mới thêm vào list
                 lstGioHang.Add(sanpham);
                 return Redirect(strURL);
             }

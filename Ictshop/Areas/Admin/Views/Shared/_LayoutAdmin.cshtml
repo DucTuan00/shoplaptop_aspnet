@@ -9,8 +9,6 @@
     <meta name="author" content="" />
     <title>Dashboard - SB Admin</title>
     <link href="~/Content/PagedList.css" rel="stylesheet" />
-    @*<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />*@
     <link href="~/Areas/Assets/dist/css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
@@ -26,7 +24,7 @@
     @{ var u = Session["use"] as Ictshop.Models.Nguoidung; }
 
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-success">
-        <h3>@Html.ActionLink("ICT SHOP", "Index", "Home", new { @class = "menu1" })</h3>
+        <h3>@Html.ActionLink("LAPTOP36", "Index", "Home", new { @class = "menu1" })</h3>
         <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#">
             <i class="fas fa-bars"></i>
         </button><!-- Navbar Search-->
@@ -59,13 +57,8 @@
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading" style="color:red"> <h5>MENU</h5></div>
                         <div style="padding-left:20px">
-                            @*@Html.ActionLink("Sản phẩm", "Index", "Home", new { @style = "color:white;" })*@
-
                             @Html.ActionLink("Sản phẩm", "Index", "Home", null, new { @style = "color:white;" })
-                            @*<a class="nav-link" href="@Url.Action("Index", "Home")"> <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>Sản phẩm</a>*@
-
                         </div>
-
                         <br />
                         <div style="padding-left:20px">
                             @Html.ActionLink("Hãng sản xuất", "Index", "Hangsanxuats", null, new { @style = "color:white;" })
@@ -80,31 +73,22 @@
                         </div>
                         <br />
                         <div style="padding-left:20px">
+                            @Html.ActionLink("Đơn hàng", "Index", "Donhangs", null, new { @style = "color:white;" })
+                        </div>
+                        <br />
+                        <div style="padding-left:20px">
                             @Html.ActionLink("Phân quyền", "Index", "Phanquyens", null, new { @style = "color:white;" })
                         </div>
                         <br />
-
-                        <div style="padding-left:20px">
-                            @Html.ActionLink("Đơn hàng", "Index", "Donhangs", null, new { @style = "color:white;" })
-                        </div>
-
-                        <br />
-
                         <div style="padding-left:20px">
                             @Html.ActionLink("Thống kê", "Index", "Thongkes", null, new { @style = "color:white;" })
                         </div>
-
-
-                        @*<a class="nav-link" href="Home">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                Hãng sản xuất
-                            </a>*@
                     </div>
                 </div>
 
                 <div class="sb-sidenav-footer">
                     <div class="small">Logged in as:</div>
-                    IctShop
+                    LAPTOP36
                 </div>
             </nav>
         </div>
@@ -117,7 +101,7 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; IctShop 2021</div>
+                        <div class="text-muted">Copyright &copy; LAPTOP36 2021</div>
                         <div>
                             <a href="#">Privacy Policy</a>
                             &middot;

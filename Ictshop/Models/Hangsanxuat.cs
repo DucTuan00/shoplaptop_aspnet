@@ -10,10 +10,10 @@ namespace Ictshop.Models
     public partial class Hangsanxuat
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Hangsanxuat()
-        {
-            Sanpham = new HashSet<Sanpham>();
-        }
+        //public Hangsanxuat()
+        //{
+        //    Sanpham = new HashSet<Sanpham>();
+        //}
 
         [Key]
         public int Mahang { get; set; }

@@ -10,10 +10,6 @@
     public partial class Donhang
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Donhang()
-        {
-            Chitietdonhang = new HashSet<Chitietdonhang>();
-        }
 
         [Key]
         //[DatabaseGenerated(DatabaseGeneratedOption.None)]

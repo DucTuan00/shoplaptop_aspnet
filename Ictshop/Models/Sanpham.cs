@@ -10,10 +10,10 @@
     public partial class Sanpham
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Sanpham()
-        {
-            Chitietdonhang = new HashSet<Chitietdonhang>();
-        }
+        //public Sanpham()
+        //{
+        //    Chitietdonhang = new HashSet<Chitietdonhang>();
+        //}
 
         [Key]
         public int Masp { get; set; }

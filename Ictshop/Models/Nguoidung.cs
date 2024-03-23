@@ -10,10 +10,10 @@
     public partial class Nguoidung
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Nguoidung()
-        {
-            Donhang = new HashSet<Donhang>();
-        }
+        //public Nguoidung()
+        //{
+        //    Donhang = new HashSet<Donhang>();
+        //}
 
         [Key]
         public int MaNguoiDung { get; set; }

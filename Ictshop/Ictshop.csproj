@@ -1401,6 +1401,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\GioHang\ThanhToanDonHang.cshtml" />
+    <Content Include="Views\Sanpham\timkiem.cshtml" />
     <None Include="Web.Debug.Config">
       <DependentUpon>Web.Config</DependentUpon>
     </None>

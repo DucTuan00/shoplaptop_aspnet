@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Ictshop.Models;
@@ -15,12 +16,21 @@ namespace Ictshop.Areas.Admin.Controllers
         private Qlbanhang db = new Qlbanhang();
 
         // GET: Admin/Sanphams
-        public ActionResult Index()
+        public ActionResult Index(string SearchText = "")
         {
-            var sanphams = db.Sanphams.Include(s => s.Hangsanxuat).Include(s => s.Hedieuhanh);
-            return View(sanphams.ToList());
+            if(SearchText != "" && SearchText != null)
+            {
+                var sanpham = db.Sanphams.Where(p => p.Tensp.Contains(SearchText)).ToList();
+                return View(sanpham);
+            }
+            else
+            {
+                var sanphams = db.Sanphams.Include(s => s.Hangsanxuat).Include(s => s.Hedieuhanh);
+                return View(sanphams.ToList());
+            }
+            
         }
-
+        
         // GET: Admin/Sanphams/Details/5
         public ActionResult Details(int? id)
         {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Ictshop.Models;
+using PagedList;
 
 namespace Ictshop.Controllers
 {
@@ -36,6 +37,20 @@ namespace Ictshop.Controllers
                 return null;
             }
             return View(chitiet);
+        }
+
+        public ActionResult SearchText(string searchText = "")
+        {
+            if (searchText != "" && searchText != null)
+            {
+                var dt = db.Sanphams.Where(p => p.Tensp.Contains(searchText)).OrderBy(p => p.Masp);
+                return View("./timkiem", dt.ToPagedList(1, 5));
+            }
+            else
+            {
+                var sp = db.Sanphams.OrderBy(x => x.Masp);
+                return View("./timkiem", sp.ToPagedList(1, 5));
+            }
         }
 
     }

@@ -38,7 +38,20 @@ namespace Ictshop.Areas.Admin.Controllers
             return View(sp.ToPagedList(pageNumber, pageSize));
 
         }
-
+        public ActionResult SearchText(string searchText ="")
+        {
+            if(searchText != "" && searchText != null)
+            {
+                var dt = db.Sanphams.Where(p => p.Tensp.Contains(searchText)).OrderBy(p => p.Masp);
+                return View("./Index", dt.ToPagedList(1, 5));
+            }
+            else
+            {
+                var sp = db.Sanphams.OrderBy(x => x.Masp);
+                return View("./Index", sp.ToPagedList(1, 5));
+            }
+ 
+        }
         // Xem chi tiết người dùng GET: Admin/Home/Details/5 
         public ActionResult Details(int id)
         {

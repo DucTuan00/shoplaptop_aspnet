@@ -93,7 +93,27 @@
     }
 
 </table>
-<!-- Thêm mã phân trang -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+   
+    var inputField = document.getElementById("searchText");
+    var button = document.getElementById("buttonSearch");
+    
+    button.addEventListener("click", function () {
+        
+        var inputValue = inputField.value;
+
+        
+        if (inputValue.trim() !== "") {
+            
+            var baseUrl = "/Admin/Home/SearchText"; 
+            var url = baseUrl + "?searchText=" + encodeURIComponent(inputValue); 
+
+            
+            window.location.href = url;
+        }
+    });
+</script>
 <br />
 
     Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount

@@ -13,6 +13,7 @@
     <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
     <script src="~/Scripts/jquery-3.4.1.js"></script>
     <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
     @using Ictshop.Models
 
     <style type="text/css">
@@ -93,19 +94,19 @@
                 @*@Html.Action("GioHangPartial", "GioHang",new { @style = "color:while" })*@
                 @{ if (u != null)
                     {
-                                <div class="col-sm-4 col-md-0">
-                                    <a style="color:white" href="@Url.Action("Profile", "User", new { id = u.MaNguoiDung  })"> Xin chào : @u.Email</a>
-                                    &nbsp;
-                                    @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" })*@
-                                    <a style="color:red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
-                                </div> }
+                        <div class="col-sm-4 col-md-0">
+                            <a style="color:white" href="@Url.Action("Profile", "User", new { id = u.MaNguoiDung  })"> Xin chào : @u.Email</a>
+                            &nbsp;
+                            @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" })*@
+                            <a style="color:red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
+                        </div> }
                     else
                     {
-                    <div class="col-sm-4 col-md-0">
-                         <a style="color:white" href="/User/Dangky"> Đăng ký</a>
-                         &nbsp;
-                        <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
-                    </div> }}
+                        <div class="col-sm-4 col-md-0">
+                            <a style="color:white" href="/User/Dangky"> Đăng ký</a>
+                            &nbsp;
+                            <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
+                        </div> }}
             </div>
         </div>
         <div class="container">
@@ -119,7 +120,10 @@
                 <img class="navbar-brand" src="~/HinhanhSP/logo1.jpg" width="50" height="50" style="padding:0" />
                 @Html.ActionLink("LAPTOP36", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
                 <form class="form-inline" style="float:left">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">                   
+                    <input class="form-control mr-sm-2" type="search" id="searchText" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+
+                    <button class="btn btn-primary" type="button" id="buttonSearch"><i class="fas fa-search"></i></button>
+
                 </form>
 
             </div>
@@ -129,25 +133,25 @@
                 <ul class="nav navbar-nav">
                     <li>
                         <!--<a href="#" title="dienthoai">-->
-                            @*<span><i class=" glyphicon-music "></i></span>*@
-                            <!--<span>ĐIỆN THOẠI</span>
+                        @*<span><i class=" glyphicon-music "></i></span>*@
+                        <!--<span>ĐIỆN THOẠI</span>
 
                         </a>-->
                     </li>
                     <li>
-                        <a href="#" title="LAPTOP">                            
+                        <a href="#" title="LAPTOP">
                             <span>LAPTOP</span>
 
                         </a>
 
                     </li>
                     <li>
-                        <a href="#" title="PHUKIEN">                            
+                        <a href="#" title="PHUKIEN">
                             <span>PHỤ KIỆN</span>
                         </a>
                     </li>
                     <li>
-                        <a href="/Home/Contact" title="LIENHE">                           
+                        <a href="/Home/Contact" title="LIENHE">
                             <span>LIÊN HỆ</span>
 
                         </a>
@@ -223,7 +227,27 @@
         <hr />
         <center> <p class="bg-primary">&copy; @DateTime.Now.Year - LAPTOP36</p></center>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
 
+        var inputField = document.getElementById("searchText");
+        var button = document.getElementById("buttonSearch");
+
+        button.addEventListener("click", function () {
+
+            var inputValue = inputField.value;
+
+
+            if (inputValue.trim() !== "") {
+
+                var baseUrl = "/Sanpham/SearchText";
+                var url = baseUrl + "?searchText=" + encodeURIComponent(inputValue);
+
+
+                window.location.href = url;
+            }
+        });
+    </script>
 
 
     @Scripts.Render("~/bundles/jquery")

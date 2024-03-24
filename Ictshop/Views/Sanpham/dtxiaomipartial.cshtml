@@ -1,6 +1,6 @@
 ﻿
 <div class="row">
-    <div class=" bg-danger"><h3 style="padding-left:20px"> XIAOMI </h3></div>
+    <div class=" bg-danger"><h3 style="padding-left:20px"> LAPTOP ACER </h3></div>
     @foreach (var item in Model)
     {
         <div class="col-md-3 col-sm-6">
@@ -16,20 +16,11 @@
                     <input type="submit" value="Mua hàng" id="bgnGioHang" />
 
                 }
-                @*<h4> <a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">Xem chi tiết</a></h4>*@
+                <h4> <a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">Xem chi tiết</a></h4>
             </center>
 
         </div>
     }
-    @*<div class="col-md-3 col-sm-6">
-            <img src="~/HinhanhSP/ip3.jpg" class="img-responsive" alt="" />
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <img src="~/HinhanhSP/ip3.jpg" class="img-responsive" alt="" />
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <img src="~/HinhanhSP/ip3.jpg" class="img-responsive" alt="" />
-        </div>*@
 </div>
 
 

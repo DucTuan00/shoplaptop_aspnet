@@ -1,11 +1,10 @@
-﻿
-    <div class="row">
-        <div class=" bg-danger"><h3 style="padding-left:20px"> IPHONE </h3></div>
-        @foreach (var item in Model)
-        {
+﻿<div class="row">
+    <div class=" bg-danger"><h3 style="padding-left:20px"> LAPTOP MSI </h3></div>
+    @foreach (var item in Model)
+    {
             <div class="col-md-3 col-sm-6">
                 <a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">
-                    <img src=@Url.Content("~" +item.Anhbia.ToString()) class="img-responsive" alt="" width="400" height="400" />
+                <img src=@Url.Content("~" +item.Anhbia.ToString()) class="img-responsive" alt="" width="400" height="400" />
                 </a>
                     <center>
                         <h3>@item.Tensp</h3>
@@ -14,9 +13,8 @@
                         @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = item.Masp, @strURL = Request.Url.ToString() }))
                         {
                             <input type="submit" value="Mua hàng" id="bgnGioHang" />
-
                         }
-                        @*<a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">Xem chi tiết</a>*@
+                    <h4> <a href="@Url.Action("xemchitiet", new {@Masp=item.Masp })">Xem chi tiết</a></h4>
                     </center>
 
             </div>

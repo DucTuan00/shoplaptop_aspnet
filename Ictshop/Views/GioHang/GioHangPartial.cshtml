@@ -1,12 +1,15 @@
 ﻿<style type="text/css">
-    .giohang{
-        color:white;
-        font-size:large
-         
+    .icon {
+        margin-right: 20px;
+        position: relative;
+        display: inline;
+        font-size: 35px;
     }
 
 </style>
 
-<a href="@Url.Action("GioHang","GioHang")" class="giohang" >Giỏ hàng<i class="fa fa-shopping-cart">
-        </i> (@ViewBag.TongSoLuong)</a>
+<a href="@Url.Action("GioHang","GioHang")" class="icon giohang" ><i class="fa fa-shopping-cart">
+        </i> <span class="badge badge-pill badge-primary">@ViewBag.TongSoLuong</span></a>
+
+
 

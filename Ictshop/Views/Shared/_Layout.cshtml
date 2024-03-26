@@ -67,9 +67,64 @@
                 padding-left: 30px;
             }
 
-        .giohang {
+        /*.giohang {
             color: white;
+        }*/
+
+        /*Css mới cho icon giỏ hàng và user*/
+        
+        
+        .icon-container {
+            display: inline-block;
+            margin-left: 50px;
+            height: 50px;
         }
+
+        .icon {
+            margin-right: 20px;
+            position: relative;
+            display: inline;
+            font-size: 35px;
+        }
+
+        .icon label {
+            font-size: 16px;
+        }
+
+        .user-options {
+            font-size: 16px;
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #fff;
+            border-radius: 5px;
+            min-width: 150px;
+        }
+
+        .icon:hover .user-options {
+            display: block;
+        }
+
+        .user-options a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 5px;
+        }
+
+        .user-options a:hover {
+            background-color: #5b5b5c;
+            color: #fff
+        }
+
+        .user-text {
+            font-size: 16px;
+        }
+
+        
     </style>
 
 
@@ -82,22 +137,18 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
 
-        <div class="top_header col-md-12">
+        @*<div class="top_header col-md-12">
 
             <div class="row">
-                @*<div class="col-sm-2"><img class="navbar-brand" src="~/HinhanhSP/logo1.jpg" width="20" height="20" style="padding:0" /></div>*@
-                <div class="col-sm-4 col-md-0" style="font-size:large">LAPTOP36</div>
 
                 <div class="col-sm-4 col-md-0" style="padding-left:250px">
                     @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
                 </div>
-                @*@Html.Action("GioHangPartial", "GioHang",new { @style = "color:while" })*@
                 @{ if (u != null)
                     {
                         <div class="col-sm-4 col-md-0">
                             <a style="color:white" href="@Url.Action("Profile", "User", new { id = u.MaNguoiDung  })"> Xin chào : @u.Email</a>
                             &nbsp;
-                            @*@Html.ActionLink("ĐĂNG XUẤT", "DangXuat", "User", new { style = "color:red" })*@
                             <a style="color:red" href="/User/DangXuat"> ĐĂNG XUẤT</a>
                         </div> }
                     else
@@ -108,7 +159,9 @@
                             <a style="color:white" href="/User/Dangnhap"> Đăng nhập</a>
                         </div> }}
             </div>
-        </div>
+        </div>*@
+        
+
         <div class="container">
 
             <div class="navbar-header">
@@ -128,7 +181,7 @@
 
             </div>
 
-            <div class="navbar-collapse collapse">
+            <div class="">
 
                 <ul class="nav navbar-nav">
                     <li>
@@ -136,20 +189,9 @@
                         @*<span><i class=" glyphicon-music "></i></span>*@
                         <!--<span>ĐIỆN THOẠI</span>
 
-                        </a>-->
+                </a>-->
                     </li>
-                    <li>
-                        <a href="#" title="LAPTOP">
-                            <span>LAPTOP</span>
-
-                        </a>
-
-                    </li>
-                    <li>
-                        <a href="#" title="PHUKIEN">
-                            <span>PHỤ KIỆN</span>
-                        </a>
-                    </li>
+                    
                     <li>
                         <a href="/Home/Contact" title="LIENHE">
                             <span>LIÊN HỆ</span>
@@ -162,7 +204,43 @@
                            href="@Url.Action("Index", "DonHangs")">ĐƠN HÀNG</a>
                     </li>
                 </ul>
+
+
             </div>
+
+            <div class="icon-container">
+                <div class="icon giohang">
+                    @Html.Action("GioHangPartial", "GioHang", new { @class = "giohang" })
+                    
+                </div>
+
+                    @{ if (u != null)
+                        {
+                            <div class="icon user-icon">
+                                <i class="fas fa-user "></i> <label>@u.Email</label>
+                                <div class="user-options">
+                                    <!-- Các lựa chọn cho người dùng -->
+                                    <a href="@Url.Action("Profile", "User", new { id = u.MaNguoiDung  })">Chỉnh sửa hồ sơ</a>
+                                    <a href="/User/DangXuat">Đăng xuất</a>
+                                </div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="icon user-icon">
+                                <i class="fas fa-user "></i>
+                                <div class="user-options">
+                                    <!-- Các lựa chọn cho người dùng -->
+                                    <a href="/User/Dangky">Đăng ký</a>
+                                    <a href="/User/Dangnhap">Đăng nhập</a>
+                                </div>
+                            </div>
+                        }
+                    }
+            </div>
+            
+
+
 
         </div>
     </div>

@@ -218,7 +218,7 @@ namespace Ictshop.Controllers
                     new { MaTT = 1, TenPT="Thanh toán tiền mặt" },
                     new { MaTT = 2, TenPT="Thanh toán chuyển khoản" },
                 }, "MaTT", "TenPT", 1);
-            ViewBag.MaNguoiDung = new SelectList(db.Nguoidungs, "MaNguoiDung", "Hoten", kh.MaNguoiDung);
+            
             
 
 
@@ -232,6 +232,7 @@ namespace Ictshop.Controllers
             {
                 RedirectToAction("Index", "Home");
             }
+            ViewBag.MaNguoiDung = new SelectList(db.Nguoidungs, "MaNguoiDung", "Hoten",kh.MaNguoiDung);
             //Thêm đơn hàng
             Donhang ddh = new Donhang();
             List<GioHang> gh = LayGioHang();

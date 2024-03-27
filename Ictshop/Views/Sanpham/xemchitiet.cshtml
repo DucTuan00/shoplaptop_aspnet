@@ -8,25 +8,54 @@
 }
 <br />
 
-<CENTER>
-    <div>
-        <h2>CHI TIẾT SẢN PHẨM</h2>
-        <img src="@Url.Content("~" +@Model.Anhbia)" />
-        <br />
-        <h3> @Model.Tensp</h3>
-        <h3 style="color:red">Giá: @String.Format("{0:0,0}", @Model.Giatien) VND</h3>
-        <h4>Cpu: @Html.DisplayFor(model => model.Cpu)</h4>
-        <h4>Gpu: @Html.DisplayFor(model => model.Gpu)</h4>
-        <h4>Ram: @Html.DisplayFor(model => model.Ram) gb</h4>
-        <h4>Ssd: @Html.DisplayFor(model => model.Bonhotrong) gb</h4>
-        <br />
-        @Model.Mota
-        <br />
-        @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = Model.Masp, @strURL = Request.Url.ToString() }))
-        {
-            <input type="submit" value="Mua hàng" id="bgnGioHang" />
+<style>
+    .container {
+        display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */
+        justify-content: center; /* Canh giữa các phần tử theo chiều ngang */
+        align-items: center; /* Canh giữa các phần tử theo chiều dọc */
+        text-align: left; /* Căn trái nội dung trong container */
+        margin-bottom: 10px;
+    }
 
-        }
+    .anhbia {
+        margin: 0 150px;
+
+    }
+
+    .thongtin-container {
+        flex-grow: 1; /* Phần thông tin sản phẩm sẽ mở rộng để lấp đầy không gian còn lại */
+    }
+
+    .btn-mua {
+        margin-top: 30px;
+    }
+</style>
+
+<CENTER>
+    <h2>CHI TIẾT SẢN PHẨM</h2>
+    <div class="container">
+
+        <div>
+            <img class="anhbia" src="@Url.Content("~" +@Model.Anhbia)" />
+        </div>
+
+        <div class="thongtin-container">
+            <h3> @Model.Tensp</h3>
+            <h3 style="color:red">Giá: @String.Format("{0:0,0}", @Model.Giatien) VND</h3>
+            <h4>CPU: @Html.DisplayFor(model => model.Cpu)</h4>
+            <h4>GPU: @Html.DisplayFor(model => model.Gpu)</h4>
+            <h4>RAM: @Html.DisplayFor(model => model.Ram) GB</h4>
+            <h4>SSD: @Html.DisplayFor(model => model.Bonhotrong) GB</h4>
+            @Model.Mota
+            <br />
+            @using (Html.BeginForm("ThemGioHang", "GioHang", new { @iMasp = Model.Masp, @strURL = Request.Url.ToString() }))
+            {
+                <input type="submit" value="THÊM VÀO GIỎ HÀNG" class="btn btn-primary btn-lg btn-block btn-mua" id="bgnGioHang" />
+
+            }
+        </div>
+
+
 
     </div>
 </CENTER>

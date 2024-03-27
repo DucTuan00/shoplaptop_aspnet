@@ -45,8 +45,6 @@ namespace Ictshop.Controllers
                 {
                     //Nguoidung temp = (Nguoidung)from x in db.Nguoidungs where x.Email == _objModelMail.To select x;
                     List<Nguoidung> temp = db.Nguoidungs.Where(x => x.Email.Equals(_objModelMail.To)).ToList();
-                    Session["tempEmail"] = _objModelMail.To;
-                    tempMail = _objModelMail.To;
                     Session["temp"] = null;
                     return View("./Doimatkhau", temp[0]);
                 }

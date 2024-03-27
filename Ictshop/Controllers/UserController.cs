@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 using Ictshop.Models;
@@ -10,7 +11,68 @@ namespace Ictshop.Controllers
 {
     public class UserController : Controller
     {
+        string tempMail;
         Qlbanhang db = new Qlbanhang();
+        [HttpPost]
+        public ActionResult DoiMk([Bind(Include = "MaNguoiDung,Hoten,Email,Dienthoai,Matkhau,IDQuyen, Anhdaidien,Diachi")] Nguoidung nguoidung)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(nguoidung).State = EntityState.Modified;
+                db.SaveChanges();
+                return View("./Dangnhap");
+            }
+            return View("./Doimatkhau");
+        }
+
+        public ActionResult Sendmail()
+        {
+            return View("./Quenmatkhau");
+        }
+
+        [HttpPost]
+        public ActionResult Sendmail(MailModel _objModelMail)
+        {
+            if (Session["temp"] == null)
+            {
+                Random rnd = new Random();
+                int randNum = rnd.Next(100000, 999999);
+                Session["temp"] = randNum;
+            }
+            if (ModelState.IsValid && db.Nguoidungs.SingleOrDefault(x => x.Email.Equals(_objModelMail.To)) != null)
+            {
+                if ((int)Session["temp"] == _objModelMail.code)
+                {
+                    //Nguoidung temp = (Nguoidung)from x in db.Nguoidungs where x.Email == _objModelMail.To select x;
+                    List<Nguoidung> temp = db.Nguoidungs.Where(x => x.Email.Equals(_objModelMail.To)).ToList();
+                    Session["tempEmail"] = _objModelMail.To;
+                    tempMail = _objModelMail.To;
+                    Session["temp"] = null;
+                    return View("./Doimatkhau", temp[0]);
+                }
+                MailMessage mail = new MailMessage();
+                mail.To.Add(_objModelMail.To);
+                mail.From = new MailAddress(_objModelMail.From = "thuvienhanoi97@gmail.com");
+                mail.Subject = _objModelMail.Subject = "Laptop36 gửi mã xác nhận thay đổi mật khẩu";
+                string Body = _objModelMail.Body = "Mã xác nhận thay đổi mật khẩu là: "+ (int)Session["temp"];
+                mail.Body = Body;
+                mail.IsBodyHtml = true;
+                SmtpClient smtp = new SmtpClient();
+                smtp.Host = "smtp.gmail.com";
+                smtp.Port = 587;
+                smtp.UseDefaultCredentials = false;
+                smtp.Credentials = new System.Net.NetworkCredential("thuvienhanoi97@gmail.com", "lxnx syzz smac vjvv"); // Enter seders User name and password  
+                smtp.EnableSsl = true;
+                smtp.Send(mail);
+                ViewBag.codeSent = true;
+                return View("./Quenmatkhau", _objModelMail);
+            }
+            else
+            {
+                return View("./Quenmatkhau");
+            }
+        }
+
         // ĐĂNG KÝ
         public ActionResult Dangky()
         {
@@ -54,10 +116,10 @@ namespace Ictshop.Controllers
         }
 
         [HttpPost]
-        public ActionResult Dangnhap(FormCollection userlog)
+        public ActionResult Dangnhap(LoginModel model)
         {
-            string userMail = userlog["userMail"].ToString();
-            string password = userlog["password"].ToString();
+            string userMail = model.userMail;
+            string password = model.password;
             var islogin = db.Nguoidungs.SingleOrDefault(x => x.Email.Equals(userMail) && x.Matkhau.Equals(password));
             if (islogin != null)
             {

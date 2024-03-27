@@ -140,7 +140,7 @@ namespace Ictshop.Controllers
                 return PartialView();
             }
             ViewBag.TongSoLuong = TongSoLuong();
-            ViewBag.TongTien = TongTien();
+            //ViewBag.TongTien = TongTien();
             return PartialView();
         }
         //Xây dựng 1 view cho người dùng chỉnh sửa giỏ hàng
@@ -212,13 +212,15 @@ namespace Ictshop.Controllers
 
         public ActionResult ThanhToanDonHang()
         {
-
+            Nguoidung kh = (Nguoidung)Session["use"];
             ViewBag.MaTT = new SelectList(new[]
                 {
                     new { MaTT = 1, TenPT="Thanh toán tiền mặt" },
                     new { MaTT = 2, TenPT="Thanh toán chuyển khoản" },
                 }, "MaTT", "TenPT", 1);
-            ViewBag.MaNguoiDung = new SelectList(db.Nguoidungs, "MaNguoiDung", "Hoten");
+            ViewBag.MaNguoiDung = new SelectList(db.Nguoidungs, "MaNguoiDung", "Hoten", kh.MaNguoiDung);
+            
+
 
             //Kiểm tra đăng đăng nhập
             if (Session["use"] == null || Session["use"].ToString() == "")
@@ -232,7 +234,6 @@ namespace Ictshop.Controllers
             }
             //Thêm đơn hàng
             Donhang ddh = new Donhang();
-            Nguoidung kh = (Nguoidung)Session["use"];
             List<GioHang> gh = LayGioHang();
             decimal tongtien = 0;
             foreach (var item in gh)

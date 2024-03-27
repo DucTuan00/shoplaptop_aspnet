@@ -72,7 +72,7 @@ namespace Ictshop.Areas.Admin.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Masp,Tensp,Giatien,Soluong,Mota,Thesim,Bonhotrong,Sanphammoi,Ram,Anhbia,Mahang,Mahdh")] Sanpham sanpham)
+        public ActionResult Create([Bind(Include = "Masp,Tensp,Giatien,Soluong,Mota,Cpu,Bonhotrong,Sanphammoi,Ram,Anhbia,Mahang,Mahdh,Gpu")] Sanpham sanpham)
         {
             if (ModelState.IsValid)
             {

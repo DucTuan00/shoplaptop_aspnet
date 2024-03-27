@@ -15,7 +15,7 @@ namespace Ictshop.Controllers
         // GET: Sanpham
         public ActionResult dtiphonepartial()
         {
-            var ip = db.Sanphams.Where(n=>n.Mahang==2).Take(8).ToList();
+            var ip = db.Sanphams.Where(n=>n.Mahang==2).Take(8).ToList();       
             return PartialView(ip);
         }
         public ActionResult dtsamsungpartial()

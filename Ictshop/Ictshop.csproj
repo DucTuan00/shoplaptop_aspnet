@@ -133,7 +133,6 @@
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
     <Compile Include="Areas\Admin\Controllers\NguoidungsController.cs" />
     <Compile Include="Areas\Admin\Controllers\PhanQuyensController.cs" />
-    <Compile Include="Areas\Admin\Controllers\SanphamsController.cs" />
     <Compile Include="Areas\Admin\Controllers\ThongkesController.cs" />
     <Compile Include="Controllers\DanhmucController.cs" />
     <Compile Include="Controllers\DonhangsController.cs" />
@@ -151,6 +150,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Chitietdonhang.cs" />
     <Compile Include="Models\Donhang.cs" />
+    <Compile Include="Models\MailModel.cs" />
     <Compile Include="Models\GioHang.cs" />
     <Compile Include="Models\Hangsanxuat.cs" />
     <Compile Include="Models\Hedieuhanh.cs" />
@@ -1347,11 +1347,6 @@
     <Content Include="Content\ckeditor\skins\moono-lisa\readme.md" />
     <Content Include="Content\ckfinder\plugins\fileeditor\codemirror\LICENSE" />
     <Content Include="Content\ckfinder\userfiles\.htaccess" />
-    <Content Include="Areas\Admin\Views\Sanphams\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Sanphams\Delete.cshtml" />
-    <Content Include="Areas\Admin\Views\Sanphams\Details.cshtml" />
-    <Content Include="Areas\Admin\Views\Sanphams\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Sanphams\Index.cshtml" />
     <Content Include="Areas\Admin\Views\Donhangs\Create.cshtml" />
     <Content Include="Areas\Admin\Views\Donhangs\Delete.cshtml" />
     <Content Include="Areas\Admin\Views\Donhangs\Details.cshtml" />
@@ -1402,6 +1397,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="Views\GioHang\ThanhToanDonHang.cshtml" />
     <Content Include="Views\Sanpham\timkiem.cshtml" />
+    <Content Include="Views\User\Quenmatkhau.cshtml" />
+    <Content Include="Views\User\Doimatkhau.cshtml" />
     <None Include="Web.Debug.Config">
       <DependentUpon>Web.Config</DependentUpon>
     </None>

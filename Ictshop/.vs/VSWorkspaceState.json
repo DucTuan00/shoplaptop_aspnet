@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Controllers",
+    "\\Properties",
+    "\\Views"
   ],
   "SelectedNode": "\\Ictshop.csproj",
   "PreviewInSolutionExplorer": false

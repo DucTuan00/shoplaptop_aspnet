@@ -3,24 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\user\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\user\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|c:\\users\\quann\\onedrive\\documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\user\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\user\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|c:\\users\\quann\\onedrive\\documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\dtiphonepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\dtiphonepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\user\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\user\\doimatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\giohang\\thanhtoandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\giohang\\thanhtoandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\user\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\user\\quenmatkhau.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -31,32 +79,16 @@
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\xemchitiet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\models\\qlbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\models\\qlbanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +127,6 @@
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\giohang\\thanhtoandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\giohang\\thanhtoandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\giohang\\giohangpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -109,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\giohang\\suagiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\giohang\\suagiohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\sanpham\\dtiphonepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\sanpham\\dtiphonepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -131,16 +155,8 @@
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\views\\home\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\areas\\admin\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\areas\\admin\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -149,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\ictshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E34AD3E6-D22D-4792-975C-31D062E773A9}|Ictshop\\Ictshop.csproj|solutionrelative:ictshop\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -162,11 +174,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 25,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Home\\Index.cshtml",
@@ -187,7 +199,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Ictshop\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Ictshop\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T07:07:53.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Ictshop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Ictshop\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T07:07:47.844Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Ictshop\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Ictshop\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-28T07:07:43.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Edit.cshtml",
@@ -199,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "NguoidungsController.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Controllers\\NguoidungsController.cs",
@@ -211,20 +259,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Doimatkhau.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Doimatkhau.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Doimatkhau.cshtml",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Doimatkhau.cshtml",
               "RelativeToolTip": "Ictshop\\Views\\User\\Doimatkhau.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T14:12:52.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T14:12:52.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Test.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Test.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Test.cshtml",
@@ -236,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\LoginModel.cs",
@@ -248,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "Quenmatkhau.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Quenmatkhau.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Quenmatkhau.cshtml",
@@ -256,12 +303,11 @@
               "RelativeToolTip": "Ictshop\\Views\\User\\Quenmatkhau.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-25T15:00:48.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T15:00:48.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "Dangky.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Dangky.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Dangky.cshtml",
@@ -273,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Dangnhap.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\User\\Dangnhap.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\User\\Dangnhap.cshtml",
@@ -285,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "MailModel.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\MailModel.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\MailModel.cs",
@@ -297,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Chitietdonhang.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\Chitietdonhang.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\Chitietdonhang.cs",
@@ -309,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "GioHang.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\GioHang.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\GioHang.cs",
@@ -321,20 +367,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Ictshop\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\UserController.cs",
               "RelativeToolTip": "Ictshop\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowC4AAABvAAAA",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAgwLoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T11:25:41.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "Nguoidung.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\Nguoidung.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\Nguoidung.cs",
@@ -346,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Sanpham.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\Sanpham.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\Sanpham.cs",
@@ -358,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "Qlbanhang.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Models\\Qlbanhang.cs",
               "RelativeDocumentMoniker": "Ictshop\\Models\\Qlbanhang.cs",
@@ -370,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "GioHang.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\GioHang\\GioHang.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\GioHang\\GioHang.cshtml",
@@ -382,19 +428,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "GioHangController.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\GioHangController.cs",
               "RelativeDocumentMoniker": "Ictshop\\Controllers\\GioHangController.cs",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\GioHangController.cs",
               "RelativeToolTip": "Ictshop\\Controllers\\GioHangController.cs",
-              "ViewState": "AQIAAN8AAAAAAAAAAAAAAN8AAAAAAAAA",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAwwPMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T15:53:10.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 10,
               "Title": "dtiphonePartial.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Sanpham\\dtiphonePartial.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Sanpham\\dtiphonePartial.cshtml",
@@ -406,31 +452,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "SanphamController.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\SanphamController.cs",
               "RelativeDocumentMoniker": "Ictshop\\Controllers\\SanphamController.cs",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Controllers\\SanphamController.cs",
               "RelativeToolTip": "Ictshop\\Controllers\\SanphamController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAADwvycAAAAJAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T14:01:18.062Z"
+              "WhenOpened": "2024-03-24T14:01:18.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "timkiem.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Sanpham\\timkiem.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Sanpham\\timkiem.cshtml",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Sanpham\\timkiem.cshtml",
               "RelativeToolTip": "Ictshop\\Views\\Sanpham\\timkiem.cshtml",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAFsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T13:56:42.658Z"
+              "WhenOpened": "2024-03-24T13:56:42.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "xemchitiet.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Sanpham\\xemchitiet.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Sanpham\\xemchitiet.cshtml",
@@ -442,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Nguoidungs\\Index.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Nguoidungs\\Index.cshtml",
@@ -454,19 +502,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
               "Title": "ThanhToanDonHang.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\GioHang\\ThanhToanDonHang.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\GioHang\\ThanhToanDonHang.cshtml",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\GioHang\\ThanhToanDonHang.cshtml",
               "RelativeToolTip": "Ictshop\\Views\\GioHang\\ThanhToanDonHang.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-24T11:28:29.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "SuaGioHang.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\GioHang\\SuaGioHang.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\GioHang\\SuaGioHang.cshtml",
@@ -478,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\_ViewStart.cshtml",
@@ -490,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Shared\\Error.cshtml",
@@ -502,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Home\\Edit.cshtml",
@@ -514,19 +562,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Details.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Home\\Details.cshtml",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Details.cshtml",
               "RelativeToolTip": "Ictshop\\Areas\\Admin\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-24T10:09:11.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Delete.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Home\\Delete.cshtml",
@@ -538,19 +586,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Create.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Home\\Create.cshtml",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Create.cshtml",
               "RelativeToolTip": "Ictshop\\Areas\\Admin\\Views\\Home\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-24T10:08:43.565Z"
+              "WhenOpened": "2024-03-24T10:08:43.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -562,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Views\\Shared\\_LayoutAdmin.cshtml",
@@ -574,19 +623,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Ictshop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Ictshop\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAcwEwAAAAjAAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T09:23:29.186Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Web.Config",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Web.config",
               "RelativeDocumentMoniker": "Ictshop\\Web.config",
@@ -599,19 +648,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 12,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Web.config",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Web.config",
-              "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Web.config*",
-              "RelativeToolTip": "Ictshop\\Views\\Web.config*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ToolTip": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Web.config",
+              "RelativeToolTip": "Ictshop\\Views\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-03-24T08:45:39.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\Shared\\_Layout.cshtml",
@@ -623,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "GioHangPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\quann\\OneDrive\\Documents\\thuvien\\shoplaptop_aspnet\\Ictshop\\Views\\GioHang\\GioHangPartial.cshtml",
               "RelativeDocumentMoniker": "Ictshop\\Views\\GioHang\\GioHangPartial.cshtml",

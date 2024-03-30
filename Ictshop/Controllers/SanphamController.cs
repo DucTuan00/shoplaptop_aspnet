@@ -15,17 +15,17 @@ namespace Ictshop.Controllers
         // GET: Sanpham
         public ActionResult dtiphonepartial()
         {
-            var ip = db.Sanphams.Where(n=>n.Mahang==2).Take(8).ToList();       
+            var ip = db.Sanphams.Where(n=>n.Mahang==8).Take(8).ToList();       
             return PartialView(ip);
         }
         public ActionResult dtsamsungpartial()
         {
-            var ss = db.Sanphams.Where(n => n.Mahang == 1).Take(8).ToList();
+            var ss = db.Sanphams.Where(n => n.Mahang == 7).Take(8).ToList();
             return PartialView(ss);
         }
         public ActionResult dtxiaomipartial()
         {
-            var mi = db.Sanphams.Where(n => n.Mahang == 3).Take(8).ToList();
+            var mi = db.Sanphams.Where(n => n.Mahang == 1).Take(8).ToList();
             return PartialView(mi);
         }      
         public ActionResult xemchitiet(int Masp=0)

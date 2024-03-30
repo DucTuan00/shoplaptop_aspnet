@@ -223,7 +223,7 @@ namespace Ictshop.Controllers
 
 
             //Kiểm tra đăng đăng nhập
-            if (Session["use"] == null || Session["use"].ToString() == "")
+            if (Session["use"] == null)
             {
                 return RedirectToAction("Dangnhap", "User");
             }

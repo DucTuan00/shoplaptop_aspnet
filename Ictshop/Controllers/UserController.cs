@@ -33,9 +33,10 @@ namespace Ictshop.Controllers
         [HttpPost]
         public ActionResult Sendmail(MailModel _objModelMail)
         {
+            Random rnd = new Random();
             if (Session["temp"] == null)
             {
-                Random rnd = new Random();
+                
                 int randNum = rnd.Next(100000, 999999);
                 Session["temp"] = randNum;
             }
@@ -47,6 +48,9 @@ namespace Ictshop.Controllers
                     List<Nguoidung> temp = db.Nguoidungs.Where(x => x.Email.Equals(_objModelMail.To)).ToList();
                     Session["temp"] = null;
                     return View("./Doimatkhau", temp[0]);
+                } else if ((int)Session["temp"] != _objModelMail.code)
+                {
+                    Session["temp"] = rnd.Next(100000, 999999);
                 }
                 MailMessage mail = new MailMessage();
                 mail.To.Add(_objModelMail.To);
